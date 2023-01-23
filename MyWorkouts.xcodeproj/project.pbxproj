@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F56EED49297F288300AA0B8B /* MyWorkouts Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F56EED48297F288300AA0B8B /* MyWorkouts Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F56EED4E297F288300AA0B8B /* MyWorkoutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EED4D297F288300AA0B8B /* MyWorkoutsApp.swift */; };
-		F56EED50297F288300AA0B8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EED4F297F288300AA0B8B /* ContentView.swift */; };
+		F56EED50297F288300AA0B8B /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EED4F297F288300AA0B8B /* StartView.swift */; };
 		F56EED52297F288400AA0B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56EED51297F288400AA0B8B /* Assets.xcassets */; };
 		F56EED55297F288400AA0B8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56EED54297F288400AA0B8B /* Preview Assets.xcassets */; };
 		F56EED5F297F288400AA0B8B /* MyWorkouts_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EED5E297F288400AA0B8B /* MyWorkouts_Watch_AppTests.swift */; };
@@ -59,7 +59,7 @@
 		F56EED42297F288300AA0B8B /* MyWorkouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWorkouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56EED48297F288300AA0B8B /* MyWorkouts Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyWorkouts Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56EED4D297F288300AA0B8B /* MyWorkoutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutsApp.swift; sourceTree = "<group>"; };
-		F56EED4F297F288300AA0B8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F56EED4F297F288300AA0B8B /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		F56EED51297F288400AA0B8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56EED54297F288400AA0B8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F56EED5A297F288400AA0B8B /* MyWorkouts Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyWorkouts Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				F56EED4D297F288300AA0B8B /* MyWorkoutsApp.swift */,
-				F56EED4F297F288300AA0B8B /* ContentView.swift */,
+				F56EED4F297F288300AA0B8B /* StartView.swift */,
 				F56EED51297F288400AA0B8B /* Assets.xcassets */,
 				F56EED53297F288400AA0B8B /* Preview Content */,
 			);
@@ -309,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F56EED50297F288300AA0B8B /* ContentView.swift in Sources */,
+				F56EED50297F288300AA0B8B /* StartView.swift in Sources */,
 				F56EED4E297F288300AA0B8B /* MyWorkoutsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
