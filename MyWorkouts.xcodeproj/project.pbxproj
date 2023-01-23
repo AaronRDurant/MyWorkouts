@@ -15,6 +15,9 @@
 		F56EED5F297F288400AA0B8B /* MyWorkouts_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EED5E297F288400AA0B8B /* MyWorkouts_Watch_AppTests.swift */; };
 		F56EED69297F288400AA0B8B /* MyWorkouts_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EED68297F288400AA0B8B /* MyWorkouts_Watch_AppUITests.swift */; };
 		F56EED6B297F288400AA0B8B /* MyWorkouts_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EED6A297F288400AA0B8B /* MyWorkouts_Watch_AppUITestsLaunchTests.swift */; };
+		F56EED7C297F312E00AA0B8B /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EED7B297F312E00AA0B8B /* SessionPagingView.swift */; };
+		F56EED7E297F328F00AA0B8B /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EED7D297F328F00AA0B8B /* MetricsView.swift */; };
+		F56EED80297F360100AA0B8B /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EED7F297F360100AA0B8B /* ElapsedTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		F56EED64297F288400AA0B8B /* MyWorkouts Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyWorkouts Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56EED68297F288400AA0B8B /* MyWorkouts_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkouts_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		F56EED6A297F288400AA0B8B /* MyWorkouts_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkouts_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F56EED7B297F312E00AA0B8B /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		F56EED7D297F328F00AA0B8B /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		F56EED7F297F360100AA0B8B /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,9 @@
 			children = (
 				F56EED4D297F288300AA0B8B /* MyWorkoutsApp.swift */,
 				F56EED4F297F288300AA0B8B /* StartView.swift */,
+				F56EED7B297F312E00AA0B8B /* SessionPagingView.swift */,
+				F56EED7D297F328F00AA0B8B /* MetricsView.swift */,
+				F56EED7F297F360100AA0B8B /* ElapsedTimeView.swift */,
 				F56EED51297F288400AA0B8B /* Assets.xcassets */,
 				F56EED53297F288400AA0B8B /* Preview Content */,
 			);
@@ -311,6 +320,9 @@
 			files = (
 				F56EED50297F288300AA0B8B /* StartView.swift in Sources */,
 				F56EED4E297F288300AA0B8B /* MyWorkoutsApp.swift in Sources */,
+				F56EED80297F360100AA0B8B /* ElapsedTimeView.swift in Sources */,
+				F56EED7E297F328F00AA0B8B /* MetricsView.swift in Sources */,
+				F56EED7C297F312E00AA0B8B /* SessionPagingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
